@@ -6,12 +6,14 @@ import Grid from './components/Grid'
 function App() {
 
   return (
-    <>
+    <div>
+      <main>
     <Navbar/>
     <HeroComponent/>
     <Grid/>
+    </main>
     <Footer/>
-    </>
+    </div>
   )
 }
 

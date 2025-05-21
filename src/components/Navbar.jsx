@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className='p-7 flex justify-between items-center w-full bg-yellow-500 z-50 font-inter border-solid border-gray-300' >
                 <a className="flex gap-1.5 items-center">
                 <AiFillBank className="text-2xl text-slate-800"/>
-                <span className="text-2xl text-slate-800 pt-1 font-bold font-inter">SAMUELITY</span>
+                <span className="text-2xl text-slate-800 pt-1 font-bold font-inter">SAMULITY</span>
                 </a>
                 <ul className='md:flex gap-7 text-slate-800 text-xl font-bold font-inter hidden'>
                   <li className="hover:text-yellow-500">
