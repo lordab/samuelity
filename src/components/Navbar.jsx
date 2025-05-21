@@ -28,17 +28,17 @@ export default function Navbar() {
                   </li>
                 </ul>
                 <button className="md:hidden" onClick={toggleOpen}>
-                    <IoMenu className="text-4xl mx-1 text-white"/>
+                    <IoMenu className="text-4xl mx-1 text-slate-800"/>
                 </button>
                 {isOpen ?
                 <div className="fixed bg-white inset-0">
-                    <div className="flex justify-between bg-cyan-900 p-7">
+                    <div className="flex justify-between bg-yellow-500 p-7">
                     <a className="flex gap-1.5 items-center">
-                        <AiFillBank className="text-2xl text-white"/>
-                        <span className="text-2xl text-white pt-1">SAMUELITY</span>
+                        <AiFillBank className="text-2xl text-slate-800"/>
+                        <span className="text-2xl text-slate-800 pt-1">SAMULITY</span>
                     </a>
                     <button className="md:hidden" onClick={toggleOpen}>
-                    <IoCloseSharp className="text-3xl text-white"/>
+                    <IoCloseSharp className="text-3xl text-slate-800"/>
                     </button>
                     </div>
                     <div className="mt-6">

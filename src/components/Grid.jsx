@@ -7,6 +7,7 @@ function Grid() {
             <Card header="SEO" description="Boost your visibility with expert SEO strategies that drive traffic and grow your business."/>
             <Card header="Social Media Optimization (SMO)" description="Enhance your brand presence and engagement across platforms with data-driven social media strategies that connect and convert."/>
             <Card header="Social media ads" description="Enhance your brand presence and engagement across platforms with data-driven social media strategies that connect and convert."/>
+            <Card header="E-commerce Website" description="Take your business online with a highly responsive, attractive, and professional website."/>
         </div>
     )
 }

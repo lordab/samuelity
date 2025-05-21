@@ -6,8 +6,8 @@ import Grid from './components/Grid'
 function App() {
 
   return (
-    <div>
-      <main>
+    <div className='flex flex-col min-h-svh'>
+      <main className='flex-grow'>
     <Navbar/>
     <HeroComponent/>
     <Grid/>
