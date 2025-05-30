@@ -7,3 +7,11 @@
   --font-inter: "Inter", sans-seriff;
 }
 
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: grey!important;
+}
