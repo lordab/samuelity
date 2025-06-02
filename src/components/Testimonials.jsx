@@ -66,7 +66,7 @@ function Testimonials() {
         <Slider {...settings}>
           {data.map((item, index) => {
             return (
-                <>
+                <div tabIndex={index}>
               <div className="bg-white border border-gray-200 rounded-lg shadow-sm flex flex-row">
                 <div className="p-2">
                   <img src={item.image} alt="" className="w-md h-20 rounded-lg" />
@@ -76,7 +76,7 @@ function Testimonials() {
                   <p className="text-sm p-4 tracking-tight font-poppins">{item.review}</p>
                 </div>
               </div>
-              </>
+              </div>
             );
           })}
         </Slider>

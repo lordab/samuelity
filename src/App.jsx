@@ -1,17 +1,21 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HeroComponent from "./components/HeroComponent";
-import Grid from "./components/Grid";
-import Testimonials from "./components/Testimonials";
+import { Route, Routes } from "react-router-dom";
+import Services from "./pages/Services.jsx";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
     <div className="flex flex-col min-h-svh">
       <main className="flex-grow">
         <Navbar />
-        <HeroComponent />
-        <Grid />
-        <Testimonials />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/services" element={<Services />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
       </main>
       <Footer />
     </div>
