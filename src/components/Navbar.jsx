@@ -45,9 +45,9 @@ export default function Navbar() {
             </button>
           </div>
           <div className="mt-6">
-            <a className="p-3 m-3 text-xl text-gray-700 block">Home</a>
-            <a className="p-3 m-3 text-xl text-gray-700 block">Services</a>
-            <a className="p-3 m-3 text-xl text-gray-700 block">Contact</a>
+            <Link to='/' onClick={toggleOpen} className="p-3 m-3 text-xl text-gray-700 block">Home</Link>
+            <Link to='/services' onClick={toggleOpen} className="p-3 m-3 text-xl text-gray-700 block">Services</Link>
+            <Link to='/contact' onClick={toggleOpen} className="p-3 m-3 text-xl text-gray-700 block">Contact</Link>
           </div>
         </div>
       ) : (
