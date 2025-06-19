@@ -6,19 +6,19 @@ function Contact() {
       <div className="max-w-md mx-auto bg-gray-100 rounded-lg shadow-md">
         <h2 className="text-2xl text-center font-semibold mb-5">Contact Us</h2>
         <form>
-          <div className="mb-5">
+          <div className="mb-5 p-2">
             <label className="block mb-1 text-md font-semibold font-inter">
               Name
             </label>
             <input className="w-full px-3 border rounded-lg bg-white py-1.5" />
           </div>
-          <div className="mb-5">
+          <div className="mb-5 p-2">
             <label className="block mb-1 text-md font-semibold font-inter">
               Phone Number
             </label>
             <input className="w-full px-3 border rounded-lg bg-white py-1.5" />
           </div>
-          <div className="mb-5">
+          <div className="mb-5 p-2">
             <label className="block mb-1 text-md font-semibold font-inter">
               Email
             </label>
@@ -27,7 +27,7 @@ function Contact() {
               type="text"
             />
           </div>
-          <div className="mb-5">
+          <div className="mb-5" p-2>
             <label className="block mb-1 text-md font-semibold font-inter">
               Message
             </label>

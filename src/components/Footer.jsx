@@ -3,10 +3,10 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className=" bg-yellow-500 shadow-sm mt-4 md:w-full">
-      <div className="grid grid-cols-1 gap-6 p-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-3">
         <div className="flex flex-col pl-4 mb-4">
           <div>
-            <h2 className="font-bold  text-gray-800 font-inter text-xl">
+            <h2 className="font-bold  text-blue-900 font-inter text-xl">
               Contacts
             </h2>
             <div className="flex flex-row mt-2">
@@ -22,7 +22,7 @@ export default function Footer() {
                 Email:
               </label>
               <p className="pl-2 text-gray-800 text-md font-inter tracking-tighter">
-                test@gmail.com
+                webservices@samulity.com
               </p>
             </div>
             <div className="flex flex-row">
@@ -38,7 +38,7 @@ export default function Footer() {
 
         <div className="flex flex-col pl-4 mb-4">
           <div>
-            <h2 className="font-semibold text-gray-900 font-inter text-xl mb-2">
+            <h2 className="font-semibold text-blue-900 font-inter text-xl mb-2">
               Services
             </h2>
             <div className="flex flex-row">
